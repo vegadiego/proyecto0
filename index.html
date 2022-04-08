@@ -16,7 +16,7 @@
 <body>
     <header>
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container-fluid">              
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -46,21 +46,17 @@
 
 
 <!-- primera sección: Inicio --> 
-    <section class="container d-flex  align-items-center justify-items-center vh-100" id="inicio">
-        <div class="row">
-            
+    <section class="container d-flex  align-items-center justify-content-center vh-100" id="inicio">
+        <div class="row">           
             <div class="col-12 col-lg-6">
-                <img src="./img/hola.svg" alt="Hola" class="img-fluid"/>
+                <img src="./img/Hola.svg" alt="Hola" class="img-fluid"/>
             </div>
-
             <div class="col-12 col-lg-6">
                 <h1 class="text-success fw-bold fst-italic">Soy Diego </h1>
                  <h3>Un futuro desarrollador!<h3>
                   <p>Estoy aprendiendo para ser Full Stack Developer</p>
             </div>
-
-        </div>
-      
+        </div>      
     </section>
 
 <!-- segunda  sección: Formación --> 
@@ -131,8 +127,11 @@
                     <label for="exampleFormControlTextarea1" class="form-label">Tu mensaje</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                   </div>
-                  <button type="submit" class="btn btn-primary mb-3">Enviar</button>
-                
+                  <div class="text-center">
+                      
+                      <button type="submit" class="btn btn-primary mb-3">Enviar</button>
+                      
+                  </div>
 
             </div>
 
@@ -144,12 +143,10 @@
     
 </body>
 <!-- Pie de página-->
-<footer>
-    <article class="container-fluid bg-primary">
-        <a href="https://www.linkedin.com/in/diegovegavd"><img src="./img/LinkeIn_logo.svg" alt="linkedin logo"></a>
-        <a href="mailto:diegovegavd@gmail.com"><img src="./img/Mail.svg" alt="mail logo"></a>
-
-    </article>
+<footer class="container-fluid bg-primary text-center">
+  
+    <a href="https://www.linkedin.com/in/diegovegavd"><img src="./img/LinkeIn_logo.svg" alt="linkedin logo"></a>
+    <a href="mailto:diegovegavd@gmail.com"><img src="./img/Mail.svg" alt="mail logo"></a>
 
 </footer>
 </html>
